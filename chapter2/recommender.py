@@ -278,17 +278,17 @@ class recommender:
 		return recommendations[:self.n]
 
 
-r = recommender(users)
-print("Jordyn: pearson method:", r.recommend('Jordyn', 'pearson') )
-print("Jordyn: manhattan method:", r.recommend('Jordyn', 'manhattan') )
-print("Jordyn: euclid method:", r.recommend('Jordyn', 'euclid') )
-print("Jordyn: euclid else method:", r.recommend('Jordyn', 'jarble') )
+#r = recommender(users)
+#print("Jordyn: pearson method:", r.recommend('Jordyn', 'pearson') )
+#print("Jordyn: manhattan method:", r.recommend('Jordyn', 'manhattan') )
+#print("Jordyn: euclid method:", r.recommend('Jordyn', 'euclid') )
+#print("Jordyn: euclid else method:", r.recommend('Jordyn', 'jarble') )
 
-print(r.recommend('Hailey', 'pearson') )
+#print(r.recommend('Hailey', 'pearson') )
 
-r.loadBookDB("C:/Users/Kyle/Documents/GitHub/guideToDataMining/chapter2/BX-Dump/") 
+#r.loadBookDB("C:/Users/Kyle/Documents/GitHub/guideToDataMining/chapter2/BX-Dump/") 
 
-print(r.recommend('171118', 'pearson') )
+#print(r.recommend('171118', 'pearson') )
 
-r.userRatings('171118', 5) 
+#r.userRatings('171118', 5) 
 
